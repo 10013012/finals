@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bootstrap 101 Template</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href = "css/styles.css" rel = "stylesheet">
+</head>
+<body>
+
+	<div class="navbar navbar-inverse navbar-static-top"><div class="container">
+			<a href="index.html" style="font-size: 27px; color: #ff0000; font-family: Trebuchet MS" class="navbar-brand"> D&D Beyond </a>
+			<a href="#" class="navbar-brand"></a>
+			<button class="navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<div class="collapse navbar-collapse navHeaderCollapse">
+
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html" style="font-family: Trebuchet MS">Home</a></li>
+					<li class="active"><a href="content.html" style="font-family: Trebuchet MS">Toolset</a></li>
+					<li><a href="content.html" style="font-family: Trebuchet MS">Content</a></li>
+					<li><a href="about.html" style="font-family: Trebuchet MS">About</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle = "dropdown" style="font-family: Trebuchet MS">Social Media<b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="https://twitter.com/dndbeyond" style="font-family: Trebuchet MS">Twitter</a></li>
+							<li><a href="https://www.facebook.com/dndbeyond" style="font-family: Trebuchet MS">Facebook</a></li>
+							<li><a href="https://www.twitch.tv/dndbeyond" style="font-family: Trebuchet MS">Twitch</a></li>
+						</ul>
+					<li><a href="#contact" data-toggle="modal" style="font-family: Trebuchet MS">Contact Us</a></li>
+					<li><a href="https://www.dndbeyond.com/twitch-signup" style="font-family: Trebuchet MS;">Sign Up!</a></li>
+				</ul>
+			</div>
+		</div>		
+	</div>
+	<center><h1 style="font-family: Trebuchet MS">The Digital Toolset</h1></center>
+	<center><p style="font-size: 17px; font-family:Trebuchet MS ">Allows you to enjoy D&D online as much as you do with pen and paper.</p></center>
+	<center><p style="font-family:Trebuchet MS">Create your character <a href="https://www.dndbeyond.com/characters/builder#/" style="color: #ff0000"><i>now</i></a>!</p></center>
+	<center><img src="resource.jpg" width="700 px"></center><br><center><p style="font-size: 17px; font-family:Trebuchet MS "><br>You can now build characters! Character creation in D&D is typically a lengthy process that includes significant referencing of books and recording every detail described in those books - not to mention the "softer" aspects such as forming your character's identity.</p>
+		<br>
+<p style="font-size: 17px; font-family:Trebuchet MS ">Our purpose with the character builder is to streamline character creation by automatically applying all traits and features that are granted to a character by virtue of her race, class, background, etc. and instead focusing on those traits and features that require player choice. So, using the builder, you can create a character in minutes, because everything you would ordinarily write down on your character sheet that you just "get" is already done for you. You can then make the choices that you need to make and have a completed, play-ready character.<br></p></center><br>
+<center><img src="builder.png" width= 600px></center><br>
+<center><h1 style="font-size: 27px; font-family:Trebuchet MS ">Standard</h1>
+<h3 style="font-size: 17px; font-family:Trebuchet MS ">This is the method to use if you want to build a character in the typical way.</h3></center>
+<br>
+<center><h1 style="font-size: 27px; font-family:Trebuchet MS ">Quick Build</h1>
+<h3 style="font-size: 17px; font-family:Trebuchet MS ">A way to get a play-ready 1st level character (that's optimized according to the PHB guidelines) fast.</h3></center>
+<br>
+<center><h1 style="font-size: 27px; font-family:Trebuchet MS ">Randomize</h1>
+<h3 style="font-size: 17px; font-family:Trebuchet MS ">This will either make a completely random character (level, race, class, background, spells, etc.), or you can specify a few of those parameters. Keep in mind that these are completely random - this method will not create a necessarily optimized character. It might be fun to play with that kind of randomness though!</h3></center>
+
+	<div class="navbar navbar-default navbar-fixed-bottom styles-color-#000000">
+	<p style="font-size: 13px; color: #8e8e8e; font-family: Trebuchet MS" class="navbar-text pull-left">© Kendall</p>
+	<div class="container">
+		<a class="navbar-btn btn-danger btn pull-right" href="https://www.youtube.com/channel/UCPy-338BEVgDkQade0qJmkw/featured">Subscribe!</a></div></div>
+
+
+	<div class="modal fade" id="contact" role="dialog">
+<div class="modal-dialog">
+	<div class="modal-content">
+		<form class="form-horizontal">
+		<div class="modal-header">
+			<h4>Contact D&D Beyond</h4>
+		</div>
+		<div class="modal-body">
+			<div class="form-group">
+				
+				<label for = "contact-name" class="col-lg-2 control-label">Name:</label>
+				<div class= "col-lg-10">
+
+					<input type= "text" class = "form-control" id = "contact-name" placeholder="Full Name">
+
+			</div>
+	</div>
+	<div class="form-group">
+				
+				<label for = "contact-email" class="col-lg-2 control-label">Email:</label>
+				<div class= "col-lg-10">
+
+					<input type= "email" class = "form-control" id = "contact-email" placeholder="you@example.com">
+
+			</div>
+	</div>
+	<div class="form-group">
+				
+				<label for = "contact-message" class="col-lg-2 control-label">Message:</label>
+				<div class= "col-lg-10">
+
+				<textarea class="form-control" rows="8"></textarea>
+
+			</div>
+	</div>
+	<div class="modal-footer">
+		<button class="btn btn-danger" type="submit">Send</button>
+		<a class="btn btn-default" data-dismiss ="modal">Close</a>
+	</div>
+</form>
+	</div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
